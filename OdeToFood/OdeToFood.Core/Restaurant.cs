@@ -4,6 +4,14 @@ using System.Text;
 
 namespace OdeToFood.Core
 {
+  public enum CuisineType
+  {
+    None,
+    Mexican,
+    Italian,
+    Indian,
+  }
+
   public class Restaurant
   {
     public int Id { get; set; }
